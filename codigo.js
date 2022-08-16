@@ -10,9 +10,9 @@ const bikinis=[
 
 let miBoton=document.getElementById("boton");
 miBoton.onclick=()=>{
-    alert("Agregaste bikini "+bikinis[0].nombre+" al carrito :)");
-    carrito.push(bikinis);
-    console.table(carrito);
+    console.table("Agregaste bikini "+bikinis[0].nombre+" al carrito :)");
+    carrito.push(bikinis[0].nombre);
+    alert("bikinis en el carrito: "+carrito);
 }
 miBoton.onmouseover=()=>{
     console.log("haga click para comprar!");
