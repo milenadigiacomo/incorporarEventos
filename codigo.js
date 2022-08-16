@@ -10,7 +10,7 @@ const bikinis=[
 
 let miBoton=document.getElementById("boton");
 miBoton.onclick=()=>{
-    alert("Agregaste bikini "+bikinis.nombre+" al carrito :)");
+    alert("Agregaste bikini "+bikinis[0].nombre+" al carrito :)");
     carrito.push(bikinis);
     console.table(carrito);
 }
